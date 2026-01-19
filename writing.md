@@ -2,14 +2,15 @@
 layout: default
 ---
 
-# WRITING ✦
+<div class="text-section" markdown="1">
 
 ## FICTION
 
 [DEPLOY](https://flashpointsf.com/2021/04/09/deploy/){:target="_blank"}, a flash story about sol-nuclear arms testing. *Flash Point SF*. 2021.
 
+</div>
 
----
+<div class="text-section" markdown="1">
 
 ## NON-FICTION
 
@@ -27,8 +28,9 @@ layout: default
 
 [Reading The Docs: Finding Asian-American Participation in Punk/Metal/Hardcore](https://wmuc.umd.edu/ghost-site/the-requiem-zine-1/){:target="_blank"}. *Requiem Zine*. 2023.  
 
+</div>
 
----
+<div class="text-section" markdown="1">
 
 ## POETRY
 
@@ -37,6 +39,8 @@ layout: default
 [Beware: Punk in the Sculpture Studio](https://wmuc.umd.edu/ghost-site/presenting----clipped-/){:target="_blank"}. *WMUC Zine.* 2023.
 
 [city girls](http://strangehorizons.com/poetry/city-girls/){:target="_blank"}. *Strange Horizons*. 2021.
+
+</div>
 
 <!---
 

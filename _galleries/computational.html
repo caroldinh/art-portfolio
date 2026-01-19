@@ -1,0 +1,38 @@
+---
+title: computational
+layout: default
+parent: none
+order: 3
+---
+
+
+<div class="text-section" style="margin: 64px">
+    <h2>Technological Statement</h2>
+    <p>
+        While I believe LLMs and generative AI can facilitate interesting thought experiments and social/technological commentary, <strong>I am firmly against the use of these plagiaristic tools to replace human labor and creativity.</strong> I’d like to draw a distinction between “AI art” and the humanly-creative generative, procedural, computational, and code art (among other labels that artists in this space like to use).
+    </p>
+    <p>
+        When I refer to my “computational artworks,” I refer to my works that are created on a computer using programmed algorithms and software development tools. The artworks on this page were made using tools like Processing and Unity. These artworks were scripted by flesh on keys, architected with human reasoning and composed with an intuitive eye.
+    </p>
+</div>
+
+{% assign featured = site.works | where_exp:"item", "item.category contains 'computational'" | reverse %}
+<div class="masonry-container">
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 1 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

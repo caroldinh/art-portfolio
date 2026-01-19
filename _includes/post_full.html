@@ -1,0 +1,19 @@
+<div class="text-section">
+    <h1>{{ page.title }}</h1>
+    <div class="post-preview-metadata">
+        <p><strong>{{ page.date | date: "%-d %B %Y" }}</strong></p>
+        {% if page.tags %}
+        <p> <strong> | </strong> </p>
+        <p>{{ page.content | number_of_words }} words | </p>
+        {% endif %}
+        {% for tag in page.tags %}
+        <div class="post-tag"># {{ tag }}</div>
+        {% endfor %}
+    </div>
+    <a class="back-link" onclick="window.history.back()">← Never mind, go back</a>
+</div>
+
+<div class="text-section" markdown="1">
+    <p>{{ page.content }}</p>
+    <a class="back-link" onclick="window.history.back()">← Done reading, go back</a>
+</div>

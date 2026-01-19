@@ -1,0 +1,27 @@
+---
+title: traditional
+layout: default
+parent: "none"
+order: 1
+---
+
+{% assign featured = site.works | where_exp:"item", "item.category contains 'traditional'" | reverse %}
+<div class="masonry-container">
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 1 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

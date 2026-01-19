@@ -1,0 +1,9 @@
+---
+layout: default
+---
+
+{% for post in site.news %}
+    {% if post.published %}
+    {% include post_preview.html %}
+    {% endif %}
+{% endfor %}

@@ -1,0 +1,26 @@
+---
+title: book covers
+layout: default
+parent: traditional
+---
+
+{% assign featured = site.works | where_exp:"item", "item.category contains 'book-covers'" | reverse %}
+<div class="masonry-container">
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 1 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="masonry-column">
+        {% for post in featured %}
+        {% assign mod = forloop.index | modulo: 2 %}
+        {% if mod == 0 %}
+        {% include image_preview.html %}
+        {% endif %}
+        {% endfor %}
+    </div>
+</div>

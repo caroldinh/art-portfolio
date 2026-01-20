@@ -32,7 +32,8 @@
     <div class="sidebar">
 
       <h1 id="title"><a class="site-header" href="/">CAROLINE DINH ✦</a></h1>
-      {% for gallery in site.galleries %}
+      {% assign galleries = site.galleries | sort: "order" %}
+      {% for gallery in galleries %}
         {% if gallery.parent == 'none' %}
         <a class="navlink" href="{{ gallery.url }}">
           {% if page.title == gallery.title %}

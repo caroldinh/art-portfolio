@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Chien Shiung Wu"
+title: "Road Trip for Dreamers"
 date: 2021-11-02 -0500
 category: "digital"
 image: "assets/images/road-trip-for-dreamers/final.jpg"

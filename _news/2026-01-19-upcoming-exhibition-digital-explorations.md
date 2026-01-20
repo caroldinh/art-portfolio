@@ -5,7 +5,9 @@ date: 2026-1-19 -0500
 gallery_format: newsletter 
 tags: exhibitions personal
 published: true
+image: /assets/news-media/2026-01-19/mfa_flyer.png
 ---
+
 
 ![Flyer for DIGITAL EXPLORATIONS by Maryland Federation of Art. The exhibit will run January 28 - February 28, 2026, with a reception at Circle Gallery on February 28 from 4-6 PM. The physical address is 18 State Circle and the online address is mdfedart.org.](/assets/news-media/2026-01-19/mfa_flyer.png){:class="image-wide"}  
 

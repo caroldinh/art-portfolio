@@ -75,7 +75,7 @@ as a place to post sketches and works-in-progress. The best ways to stay in touc
 1. Through private channels, if you know me IRL;
 2. Through email, caroldinh [at] tuta [dot] io;
 3. Through my BlueSky account, [@urlocalcyb.org](https://bsky.app/profile/urlocalcyb.org){:target="_blank"}  
-4. Adding this blog's feed to your preferred RSS feed app (once I figure out how to set it up)  
+4. Adding this blog's feed to your preferred RSS feed app: [https://urlocalcyb.org/feed/news.xml](https://urlocalcyb.org/feed/news.xml){:target="_blank"}
 
 That's pretty much it for my first post. I have a lot of goals for this year, art-wise, but first of
 all, portfolios to prepare and emails to send; hopefully, by the end of the year, I'll be able 
